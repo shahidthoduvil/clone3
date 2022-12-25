@@ -1,0 +1,418 @@
+.header{
+    height:90px;
+    display:flex;
+    flex-direction: row;
+ 
+ 
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style:solid;
+    border-bottom-color:#dadada;
+    z-index:100;
+   
+
+    
+    
+
+}
+
+.casio-text:hover{
+    cursor: pointer;
+}
+.left-section{
+
+    width:90px;
+    align-items: center;
+    display:flex;
+    margin-left: 45px;
+}
+
+
+.casio-text{
+    align-items: center;
+    font-size: 25px;
+    font-weight:900;
+    font-style: roboto,arial;
+    font-style: normal;
+    color:blue;
+    padding-left: 90px;
+}
+.middle-section{
+   flex:1;
+    
+    margin-left:50px;
+    margin-right:35px;
+    max-width:700px;
+    align-items: center;
+    display: flex;
+   
+    justify-content: space-between;
+  
+
+    
+}
+.middle-section .p{
+    font-size: 15px;
+    
+}
+.hedtext:hover{
+    cursor: pointer;
+}
+
+
+.right-section{
+   
+    width:230px;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink:0;
+    
+ 
+}
+
+
+.heart-logo{
+    height:10px;
+     
+   margin-top:-20px;
+    right:1px;
+    left:2px;
+    bottom:-100px;
+
+}
+.heart-logo:hover{
+    cursor: pointer;
+}
+.heart-icon{
+    height:25px;
+}
+.search-bar{
+flex:1;
+border-width: 2px;
+border-style: solid;
+border-color:rgb(192,192,192);
+border-radius: 2px;
+box-shadow: insest 1px 2px 4px
+rgb(0,0,0.15);
+
+
+
+
+}
+.search-but{
+    height:22px;
+    width:26px;
+    margin-left:-1px;
+    margin-bottom:0px;
+   margin-top:0px ;
+   position:absolute;
+   border-width: 2px;
+   border-style: solid;
+   border-color:rgb(192,192,192);
+   border-radius: 2px;
+   box-shadow: insest 1px 2px 4px
+   rgb(0,0,0.15);
+ }
+ .search-but:hover{
+    cursor: pointer;
+ }
+
+.but-img{
+    height:21px;
+    width:14;
+    position: absolute;
+    left:-1px;
+    top:-1px;
+
+
+}
+.search-box{
+
+margin-right:50px;
+}
+
+.pic1{
+    display: flex;
+     background-size:cover; 
+    position:relative ; 
+    width: 100%;
+     background-image: url(./image/banner-flare-red-pc.webp); 
+     height:700px; 
+     background: cover; 
+    background-position: center;
+
+
+}
+.pic2{
+    display: flex;
+     background-size:cover; 
+    position:relative ; 
+    width: 100%;
+     background-image: url(./image/essential-ga-2100-pc.webp); 
+     height:700px; 
+     background: cover; 
+    background-position: center;
+    
+    
+  
+
+}
+.pic3{
+    display: flex;
+     background-size:cover; 
+    position:relative ; 
+    width: 100%;
+     background-image: url(./image/scientific-calculators-notext-cpd-1920x816.webp); 
+     height:700px; 
+     background: cover; 
+    background-position: center;
+    
+  
+
+}
+.pic4{
+    display: flex;
+     background-size:cover; 
+    position:relative ; 
+    width: 100%;
+     background-image: url(./image/emi-top-pc-global-20220316.webp); 
+     height:700px; 
+    
+    background-position: center;
+
+  
+
+}
+.pic1:hover{
+
+    cursor: pointer;
+}
+.pic2:hover{
+
+    cursor: pointer;
+}
+.pic3:hover{
+
+    cursor: pointer;
+}
+.pic4:hover{
+
+    cursor: pointer;
+}
+.card-container{
+  
+    height:530px;
+    
+    
+}
+
+.text{
+    font-size: 30px;
+    font-family: roboto,arial;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.card{
+    background-color: rgb(252, 251, 251);
+    width:260px;
+    height:400px;
+    margin-left: 30px;
+    position: relative;
+    
+   
+}
+.card-base{
+    display: flex;
+     height:350px;
+  
+}
+.card-img{
+    height: 300px;
+    align-items: center;
+    width: 100%;
+    transition: height 0.0/s;
+    transition:width 0.08s;
+}
+.card-img:hover{
+    height: 320px;
+    width: 260px;
+    cursor: pointer;
+}
+.card-info{
+    margin-left: 2px;
+    margin-top: -3px;
+  
+}
+.name{
+    margin-left:5px ;
+}
+.name p2{
+    font-weight: 300;
+    font-size: 15px;
+
+}
+.name p3{
+    font-size: 19px;
+}
+.price{
+    margin-left: 5px;
+}
+.price p4{
+    font-size: 10px;
+    
+}
+.price p1{
+  
+    font-size: 13px;
+}
+.key{
+    position: absolute;
+  left:2px;
+  top:-1px;
+
+  
+  
+}
+.key p7{
+    font-weight: 500;
+    border-radius:none;
+}
+.key:hover{
+    cursor: pointer;
+}
+.love{
+    height:25px;
+    position: absolute;
+    right:2px;
+}
+.love:hover{
+   cursor: pointer;
+}
+.home{
+    /* background-color: aquamarine; */
+    margin-left: 40px;
+    
+}
+.home p1{
+    padding-left: 30x;
+    color: grey;
+    font-size: 15px;
+}
+.footer{
+   background-color: rgba(241, 241, 241, 0.804);
+    height: 320px;
+
+
+  
+ 
+
+ 
+}
+.subfoot-1{
+   
+    display:flex;
+    flex-direction: row;
+    height:50px;
+    width:100%;
+    justify-content: space-between;
+    padding-top: 25PX;
+}
+.subfoot-1 p10{
+    padding-left: 210px;
+
+}
+.subfoot-1 p11{
+    padding-right: 20px;
+}
+.subfoot-1 p12{
+    padding-right: 400px;
+}
+
+.subfooter-2 a{
+
+  
+    text-decoration: none;
+    justify-content: space-between;
+
+   
+}
+.subfooter-2 a1{
+    padding-left: 210px;
+    color: grey;
+    cursor: pointer;
+}
+.subfooter-2 a2{
+    padding-left: 310px;
+    color: grey;
+
+    cursor: pointer;
+}
+.subfooter-2 a3{
+    padding-left: 325px;
+    color: grey;
+
+    cursor: pointer;
+}
+.icons img{
+    height:25px;
+    width:25px;
+    padding-left: 15px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.icons{
+    margin-left: 12px;
+  
+
+}
+.poly a{
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 8px;
+  
+        
+}
+.poly{
+    margin-left: 24px;
+}
+.company p{
+    font-size: 10px;
+    margin-left: 30px;
+}
+.last-text{
+    margin-left: 10px;
+}
+.highlite{
+    font-weight: bold;
+    font-weight: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
